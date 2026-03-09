@@ -176,3 +176,23 @@
       Outliers = c(outliers_before$outliers, outliers_after$outliers)
     ) %>% 
     kable(caption = "Outlier Counts Before and After Cleaning")
+
+    <table>
+<caption>Outlier Counts Before and After Cleaning</caption>
+<thead>
+<tr>
+<th style="text-align: left;">Stage</th>
+<th style="text-align: right;">Outliers</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Before cleaning</td>
+<td style="text-align: right;">17</td>
+</tr>
+<tr>
+<td style="text-align: left;">After cleaning</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
