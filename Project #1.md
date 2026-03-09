@@ -177,7 +177,7 @@
     ) %>% 
     kable(caption = "Outlier Counts Before and After Cleaning")
 
-    <table>
+<table>
 <caption>Outlier Counts Before and After Cleaning</caption>
 <thead>
 <tr>
