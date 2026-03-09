@@ -63,7 +63,7 @@
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](46Cent_files/figure-markdown_strict/unnamed-chunk-3-1.png)
+![](plots_1/figure-markdown_strict/unnamed-chunk-3-1.png)
 
     subjects_clean %>%
       mutate(
@@ -96,7 +96,7 @@
 
     ## Picking joint bandwidth of 0.995
 
-![](46Cent_files/figure-markdown_strict/unnamed-chunk-4-1.png)
+![](plots_1/figure-markdown_strict/unnamed-chunk-4-1.png)
 
     # Overview of BDI Scores
     BDI <- BDI %>%
@@ -116,7 +116,7 @@
         )+
       facet_wrap(~ participant, scales = "free_x")
 
-![](46Cent_files/figure-markdown_strict/unnamed-chunk-5-1.png)
+![](plots_1/figure-markdown_strict/unnamed-chunk-5-1.png)
 
     #' Circadian Pattern Visualization
     ggplot(
@@ -155,7 +155,7 @@
     ## Warning: Removed 14 rows containing missing values or values outside the scale range
     ## (`geom_col()`).
 
-![](46Cent_files/figure-markdown_strict/unnamed-chunk-6-1.png)
+![](plots_1/figure-markdown_strict/unnamed-chunk-6-1.png)
 
     # Summary Statistics Table
     subjects_clean <- subjects_clean %>% 
@@ -176,23 +176,3 @@
       Outliers = c(outliers_before$outliers, outliers_after$outliers)
     ) %>% 
     kable(caption = "Outlier Counts Before and After Cleaning")
-
-<table>
-<caption>Outlier Counts Before and After Cleaning</caption>
-<thead>
-<tr>
-<th style="text-align: left;">Stage</th>
-<th style="text-align: right;">Outliers</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Before cleaning</td>
-<td style="text-align: right;">17</td>
-</tr>
-<tr>
-<td style="text-align: left;">After cleaning</td>
-<td style="text-align: right;">0</td>
-</tr>
-</tbody>
-</table>
