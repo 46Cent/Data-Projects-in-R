@@ -1,7 +1,7 @@
 # Data-Projects-in-R
-In diesem Kurs mussten wir kleine Data Projects umsetzen, welche von unseren Kommilitonen entworfen wurden.
+In this course we had to complete small data projects which were designed by our fellow students.
 
-Hier sind die Links zu den Projekten, welche ich umsetzen dürfte:
+Here are the links to the projects which I completed:
 
 https://github.com/Dr-Eberle-Zentrum/Data-projects-with-R-and-GitHub/blob/25-wise-semester/Projects/juliettst/project-description.md <br>
 
